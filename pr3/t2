@@ -1,0 +1,12 @@
+my_list = [1, 2, 3]
+print(my_list)
+my_list[0] = 100
+print(my_list) # вывело с измененным первым значением. list можно изменять после создания
+
+my_tuple = (1, 2, 3)
+my_tuple[0] = 100 # Выводит ошибку после изменения TypeError. Кортеж не изменяется после создания
+
+my_string = "cat"
+print(my_string)
+my_string[0] = 'b'
+print(my_string) # Выводит ошибку TypeError. Тип str не поддерживает изменения
