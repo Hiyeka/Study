@@ -1,0 +1,6 @@
+n = int(input())
+k = int(input())
+cel =  k // n
+ost = k % n
+print(cel)
+print(ost)
