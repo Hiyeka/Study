@@ -1,0 +1,4 @@
+minuti = int(input())
+chasi =  minuti // 60
+ostminuti = minuti % 60
+print(minuti, ' минуты - это ', chasi, ' час ', ostminuti, ' минут.')
