@@ -1,0 +1,4 @@
+import math
+mesto = int(input())
+ryad =  math.ceil(mesto / 4)
+print(ryad)
